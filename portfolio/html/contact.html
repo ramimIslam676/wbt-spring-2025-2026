@@ -9,8 +9,79 @@
 
 <body>
     <h1>Contact Information</h1>
-    <p>You can reach me through the following channels:</p>
-    <ul>
-        <li>Phone: +123-456-7890</li>
+    <form method="post">
+        <fieldset>
+            <legend>Registration form</legend>
+            <table>
+                <tr>
+                    <td><label for="first name">Name:</label></td>
+                    <td><input type="text" id="first name" name="first name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="last name">Last Name:</label></td>
+                    <td><input type="text" id="last name" name="last name" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="company">Company:</label></td>
+                    <td><input type="text" id="company" name="company"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Contact</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Reason of contact</label></td>
+                    <td>
+                        <input type="checkbox" value="project" required> Project
+                        <input type="checkbox" value="Thesis" required> Thesis
+                        <input type="checkbox" value="Job" required> Job
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Topics">Topics:</label></td>
+                    <td>
+                        <select id="Topics" name="Topics" required>
+                            <option>web development</option>
+                            <option>Mobile development</option>
+                            <option>AL/ML development</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Consultation date</label></td>
+                    <td>
+                        <input type="datetime-local" name="date" value="datetime-local" required> Date
+                    </td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Register">
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+
+
+
+
+
+        </fieldset>
+    </form>
+    <br>
+    <a href="../index.html">Back to home</a>
 
 </html>
