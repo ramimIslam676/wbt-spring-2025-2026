@@ -1,0 +1,13 @@
+h1 {
+    text-align: left;
+    color: red;
+}
+
+label {
+    font-weight: bold;
+}
+
+table {
+    justify-content: center;
+    display: flex;
+}
