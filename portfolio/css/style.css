@@ -3,12 +3,37 @@ body {
 
 }
 
-h1 {
-    text-align: center;
+.navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
 }
 
-li {
+
+.navbar ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
     display: inline-block;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 4px 4px 5px #888888;
+
+    position: relative;
+    left: 30%;
 
 }
